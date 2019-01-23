@@ -1,0 +1,44 @@
+	
+		  $studentid = test_input($_POST["studentid"]);
+		  $fname = test_input($_POST["fname"]);
+		  $lname = test_input($_POST["lname"]);
+		  $course = test_input($_POST["course"]);
+		  $mobile = test_input($_POST["mobile"]);
+		}
+
+		function test_input($data) {
+		  $data = trim($data);
+		  $data = stripslashes($data);
+		  $data = htmlspecialchars($data);
+		  return $data;
+		  
+		  <p> <span class="error"> * required field. </span> </p>
+		  
+		  
+		  <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post" method="select">
+StudentID:  <input type="text" id ="sid" name="sid"/> <br/>
+
+First Name: <input type="text" id="fname" name="fname"/> <br/>
+
+Last Name:  <input type="text" id="lname" name="lname"/> <br/>
+
+Course:     <select id="course" name="course">
+				<option value="BBIT">Business Information in IT</option> //The value is what goes to the database
+				<option value="Comp Science">Computer Science</option>
+				<option value="BCOM">Business Communication</option>
+				<option value="IT">Information Technology</option>
+			</select> 
+  <br/>
+
+Mobile:     <input type="text" id="mobile" name="mobile"/> <br/>
+  
+  <br/>
+
+<input type="submit" id="btn_submit" name="btn_submit"/>
+
+<input type="reset" id="btn_reset" name="btn_reset" />
+
+</form> 
+
+
+//Cookie time is in milliseconds

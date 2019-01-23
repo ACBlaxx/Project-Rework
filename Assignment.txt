@@ -1,0 +1,15 @@
+Create a simple website that allows a user to put registration information(at least 6 fields)
+The website should enable the user to also edit and delete registration information once they login
+NB: Demonstrate your knowledge in Database connection, cookies and sessions
+	Style the page - 	CSS and Javascript 
+	
+	Create links for easier access on the sides
+	Access checks
+	Logout on every page
+	Images for the user who has logged in
+	Fix edit & delete
+	
+	Extra marks for creating two different profiles i.e. Admin and normal User
+	
+	HOw to configure apache server to do directory listings
+	exercise 2, 4, 5

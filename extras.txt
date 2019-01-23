@@ -1,0 +1,30 @@
+ //Buttons
+  <p><form><input class="MyButton" type="button" value="Learn more"  onclick="window.location.href = ''" />
+  <p><form><input class="MyButton" type="button" value="Learn more"  onclick="window.location.href = ''" />
+  <p><form><input class="MyButton" type="button" value="Learn more"  onclick="window.location.href = ''" />
+  
+ //Ordered list
+  <li style="text-align:center; color:black;">
+ <ol><h2></h2></ol>
+ <ol></ol>
+<ol></ol>
+<ol></ol>
+</li>
+<h1></h1>
+
+//Sized images
+<h2></h2>
+  <div style="background-color:#999900; padding:20px;">
+  <img src="" float="left" width="20%" height="150px">
+  <img src="" float="center" width="20%" height="150px">
+  <img src="" float="right"width="20%" height="150px">
+  <p> <h2> <img src = ""  style = "width:10%; height:80px;" /> </h2>
+  
+//header and nav
+	
+<header style = "width:100%; height:120px; background-color:#ff7733; color:#033d9b; background-repeat:no-repeat;  background-size:1300px 150px; text-align:center;">
+	<h1> LOG IN</h1>
+</header>
+<nav style = "float:left; width:35%; height:500px; background-image:url('phone.gif'); font-size:20px;">
+
+</nav>
